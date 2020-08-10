@@ -1,0 +1,490 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+a{
+    color: #000;
+}
+a:hover{
+    color: #de0000;
+}
+.nav>li>a:hover, .nav>li.active>a{
+    color: #de0000;
+}
+.nav>li.html{
+    width: 100%;
+    clear: both;
+}
+.header:not(.transparent) .header-bottom-nav.nav > li > a{
+    font-weight: normal;
+    font-size: 14px;
+}
+.header-nav-main > li > a{
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.header-search-form-wrapper{
+    position: absolute;
+    width: 580px;
+    top: 0px;
+    left: 55px;
+    z-index: 10;
+}
+.searchform .button.icon{
+    width: 60px;
+    height: 40px;
+}
+.searchform .search-field{
+    height: 40px;
+    border: 1px solid #de0000;
+    border-right: 0px;
+}
+.nav-right{
+    margin-top: -10px;
+}
+.social-icons{
+    margin-top: 8px;
+}
+.social-icons .icon{
+    margin-left: 10px;
+}
+.button.facebook:not(.is-outline), 
+.button.instagram:not(.is-outline), 
+.button.twitter:not(.is-outline),
+.button.youtube:not(.is-outline){
+    color: #5D5E63 !important;
+}
+.button.icon i{
+    font-size: 10px;
+}
+
+.header-wrapper.stuck .header-search-form-wrapper{ display: none;}
+.header-wrapper.stuck .nav>li.html.html_top_right_text{ width: auto;}
+
+.homebanner_slider{ margin-bottom: 20px;}
+.home_headline .section-title{
+    border-top: 2px solid #ca0b10;
+    border-bottom: 1px solid #ccc;
+}
+.home_headline .section-title .section-title-main{
+    border: 0px;
+    color: #fff !important;
+    background: #ca0b10;
+}
+.section-title b{ background-color: transparent;}
+span.amount{ font-weight: normal;}
+.home_headline .section-title i.icon-angle-right{
+    float: left;
+    margin: 0px;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.home_headline .section-title i.icon-angle-right:before{
+    content: "\e800";
+}
+.button.primary:not(.is-outline).cate_viewall{
+    background-color: #cccccc;
+    color: #000;
+}
+
+.home_client_list .img-inner img{
+    width: auto;
+    max-width: 100%;
+}
+.home_client_list .row .large-2{
+    margin: 0 15px;
+}
+
+.home_tes{ margin-top: 44px;}
+.home_tes .col .col-inner{
+    background: #F9F9F9;
+    padding: 20px;
+    padding-top: 0px; 
+}
+.home_tes .col .col-inner .icon-box-text{
+    text-align: center;
+}
+.home_tes .col .col-inner .icon-box-img img{
+    margin-top: -44px;
+}
+.home_tes .test_name{
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    color: #80bb01;
+}
+.home_tes .testimonial-name-divider{
+    display: none;
+}
+.home_tes .testimonial-text{
+    font-size: 17px;
+    line-height: 160%;
+}
+.back-to-top{
+    border: 2px solid #ca0b10 !important;
+    font-size: 18px;
+}
+.back-to-top .icon-angle-up:before{
+    font-size: 25px;
+    color: #ca0b10;
+}
+.back-to-top:hover .icon-angle-up:before{
+    color: #FFF;
+}
+.box_counter .col{ padding-bottom: 0px;}
+.box_counter .statistics{ padding: 0px;}
+.box_counter .statistics h3{ display: none;}
+.box_counter .statistics .statistics-inner{ padding: 0px;}
+.box_counter .statistics .stat{ margin: 0px;}
+.box_counter .stat .number{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 0px;
+}
+.box_counter .stat .number::after{
+    content: "+";
+    margin-left: 10px;
+} 
+.box_counter .stat .count-title{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+.home .rw-ui-star.rw-valign-middle .rw-ui-info-container, 
+.home .rw-ui-container .rw-report-link, 
+.tax-product_cat .rw-ui-container .rw-report-link,
+.home .rw-ui-container .rw-report-link:hover{
+    display: none !important;
+}
+
+.tax-product_cat .rw-ui-container{ margin-bottom: 10px;}
+
+/*.blog.breadcrumbs{
+    text-align: left;
+}
+.page-title{
+    text-align: left;
+}*/
+
+.home_blog .col-inner{ min-height: 425px;}
+.home_blog .box-text h5{
+    font-weight: normal;
+    color: #ca0b10;
+}
+.price-wrapper .price{
+    font-size: 15px;
+}
+span.amount{
+    font-weight: bold;
+    color: #ca0b10;
+}
+del span.amount{
+    color: #000;
+}
+
+.home_contact .wpcf7-form-control{
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    box-shadow: none !important;
+    color: #000;
+}
+.home_contact .wpcf7-form-control::placeholder{
+    color: #000;
+}
+
+.home_contact .wpcf7-form-control:focus{
+    background-color: transparent;
+}
+
+.home_contact .wpcf7-form-control.wpcf7-submit{
+    background: #de0000;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.home_contact .wpcf7-form-control.wpcf7-submit:hover{
+    background: #ca0b10;
+}
+
+.footer_block1 .info{
+    width: 20%;
+    height: 40px;
+    float: left;
+    color: #fff;
+}
+.footer_block1 .info .inner{
+    padding: 0px 10px;
+    border-left: 1px solid #fff;
+} 
+.footer_block1 .info:first-child .inner{
+    padding-left: 0px;
+    border-left: 0px;
+}
+.footer_block1 .info .inner i{
+    float: left;
+    font-size: 36px;
+    padding-top: 2px;
+    color: #fff;
+    margin-right: 10px;
+}
+.footer_block1 .info .inner .info-cont{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.footer_block1 .info .inner .info-cont span{
+    font-weight: bold;
+}
+.footer_block1 .info .inner .info-cont p{
+    font-size: 12px;
+}
+.footer_block1 .col{
+    padding: 0px;
+}
+.f_newsletter label{
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+.f_newsletter.form-flat .flex-col{
+    padding-right: 0px;
+}
+.f_newsletter.form-flat .wpcf7-email{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: #fff;
+}
+.f_newsletter.form-flat .wpcf7-submit{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #de0000;
+}
+.footer_3{
+    padding: 0px;
+}
+.footer_3 .col{ padding: 0px;}
+.footer_3 .col p{ margin-bottom: 0px;}
+.absolute-footer{
+    display: none;
+}
+.home_map .col-inner{
+    height: 100%;
+}
+.home_map .col-inner p, .home_map .col-inner iframe{
+    width: 100%;
+    height: 100%;
+}
+.store_home .title{
+    display: block;
+    background: #969696;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 14px;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.store_home ul{
+    list-style: none;
+    padding: 15px 0px;
+    height: 330px;
+    overflow-y: auto;
+}
+.store_home ul li{
+    margin: 0px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+.store_home ul li:last-child{
+    border: 0px;
+}
+.store_home ul li .name{
+    color: #ca0b10;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.store_home ul li a.direction{
+    color: #80bb01;
+    font-size: 14px;
+}
+.header-top .flex-left{
+    width: 60%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+.top_head .col{ padding: 0px;}
+.top_head .col .icon-box-text{
+    display: flex;
+    align-items: center;
+}
+.top_head .col .icon-box-text a{
+    color: #333;
+}
+
+.single-post .blog-share.text-center{
+    text-align: left;
+}
+.single-post .blog-share .is-divider{
+    display: none;
+}
+.single-post .entry-content{
+    padding-top: 0px;
+}
+.single-post .entry-header-text-top{
+    padding: 0px;
+}
+.single-post .social-icons .icon{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.archive #breadcrumbs{ margin-bottom: 10px;}
+.archive .entry-title{ margin-bottom: 20px;}
+.archive .box-vertical .box-text{
+    vertical-align: top;
+}
+.home_client_list .img .img-inner{ text-align: center;}
+
+.float-contact {
+position: fixed;
+bottom: 20px;
+left: 20px;
+z-index: 99999;
+}
+.chat-zalo {
+background: #de0000;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-face {
+background: #125c9e;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.float-contact .hotline {
+background: #d11a59!important;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-zalo a, .chat-face a, .hotline a {
+font-size: 15px;
+color: white;
+font-weight: 400;
+text-transform: none;
+line-height: 0;
+}
+.ges_item{
+    display: inline-block;
+    margin-left : 10px  
+}
+.bg_contact{
+    padding: 10px;
+    background: url(images/page-contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_contact .col.large-6{
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.bg_contact p{ margin-bottom: 7px;}
+.bg_contact .your-content textarea{
+    min-height: 235px;
+}
+.bg_contact .wpcf7-submit{
+    float: right;
+}
+
+.banner_con{
+    padding: 0px !important;
+}
+.header-wrapper.stuck .banner_con{ display: none;} 
+
+@media (max-width: 549px){
+.float-contact{
+display:none
+}
+}
+@media only screen and (max-width: 1024px) {
+    .header-search-form-wrapper{
+        left: 0px;
+    }
+    .top_head .icon-box-left .icon-box-img{
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (max-width: 830px) {
+    .header-search-form-wrapper{
+        width: 100%;
+        position: static;
+    }
+    .off-canvas .sidebar-menu{ padding-top: 0px;}
+    .header-main{ height: 80px !important;}
+    #logo{ width: 200px !important;}
+    .home_box_1 .box-image{ width: 80% !important;}
+    .f_newsletter.form-flat .wpcf7-email, 
+    .f_newsletter.form-flat .wpcf7-submit{
+        border-radius: 99px !important;
+    }
+    .f_newsletter label{ font-size: 20px;}
+    .footer_3{ padding: 0 15px;}
+}
+@media only screen and (max-width: 768px){
+    .home_tes .medium-3{
+        max-width: 50%;
+        flex-basis: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 440px) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+    #top-bar{ display: none;}
+    .home_client_list .small-12, 
+    .box_counter .small-12{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    .padding_mobile .col-inner{
+        padding: 20px !important;
+    }
+    .home_tes .medium-3 {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .footer_block1 .info{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .home_client .gallery-col{
+        max-width: 33.33%;
+    }
+}

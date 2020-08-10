@@ -1,2 +1,2 @@
 # damuoi
-Damuoi Project
+Wordpress Project
